@@ -59,25 +59,31 @@ export default function FooterWithSocial() {
         {/* Social Links */}
         <div className="flex justify-center space-x-4">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/prasanjit-sarker-49a0b7220"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://x.com/Prasanjit_Sarkr"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Twitter className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://github.com/prasanjitsarker3"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="mailto:sarkerprasanjit379@gmail.com"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Mail className="w-5 h-5" />

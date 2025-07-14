@@ -12,7 +12,7 @@ const Banner = () => {
         <div className="mb-4">
           <div className="w-24 h-24 rounded-md overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww"
+              src="/Images/DEV56.jpg"
               alt="Christopher Walker"
               width={96}
               height={96}
@@ -32,13 +32,34 @@ const Banner = () => {
         {/* Social Icons */}
         <div className="flex space-x-4">
           <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-            <Linkedin className="w-4 h-4 text-white" />
+            <a
+              href="https://www.linkedin.com/in/prasanjit-sarker-49a0b7220"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center"
+            >
+              <Linkedin className="w-4 h-4 text-white" />
+            </a>
           </div>
           <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-            <Twitter className="w-4 h-4 text-white" />
+            <a
+              href="https://x.com/Prasanjit_Sarkr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center"
+            >
+              <Twitter className="w-4 h-4 text-white" />
+            </a>
           </div>
           <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-            <Github className="w-4 h-4 text-white" />
+            <a
+              href="https://github.com/prasanjitsarker3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center"
+            >
+              <Github className="w-4 h-4 text-white" />
+            </a>
           </div>
           <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
             <Globe className="w-4 h-4 text-white" />

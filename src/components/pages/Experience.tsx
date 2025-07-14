@@ -1,4 +1,4 @@
-import { LogsIcon } from "lucide-react";
+import { Globe, LogsIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -15,16 +15,20 @@ const Experience = () => {
 
         <div className="space-y-4">
           <div className="flex gap-4">
-            <div className="flex-shrink-0">
-              <div className="w-6 h-6  flex items-center justify-center text-white text-sm font-bold">
+            <div className="flex-shrink-0 flex flex-col items-center py-2">
+              {/* Logo */}
+              <div className="w-6 h-6 flex items-center justify-center text-white text-sm font-bold">
                 <Image
-                  src={"/Images/logo-main.svg"}
+                  src="/Images/logo-main.svg"
                   alt="rubizcode"
                   width={30}
                   height={30}
                   className=""
                 />
               </div>
+
+              {/* Vertical Dashed Border */}
+              <div className="h-full w-px border-l-2 border-orange-500 border-dashed mt-3"></div>
             </div>
 
             <div className="flex-1">
@@ -32,19 +36,33 @@ const Experience = () => {
                 Full Stack Developer
               </h3>
 
-              <div className=" text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium">
-                ONSITE • FEB 2025 – PRESENT
+              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
+                <span className="text-green-500 text-lg leading-none -mt-1">
+                  ●
+                </span>
+                Onsite • Feb 2025 – Present{" "}
+                <span className=" text-white/80">( RubizCode)</span>
+                <a
+                  href="https://rubizcode.com "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-500 hover:text-orange-400 transition-colors"
+                >
+                  <Globe size={14} />
+                </a>
               </div>
 
-              <p className=" text-gray-400 leading-relaxed text-sm">
-                Working at RuzbizCode on backend APIs, system design, database
-                schema, and frontend integration using modern web stacks.
+              <p className=" text-gray-400 leading-relaxed text-sm text-justify">
+                Working at RuzbizCode as a Full Stack Developer, contributing to
+                EdTech projects like BP Dream School, Tooperon, and Testifly. We
+                develop applications that help students learn, take online
+                exams, and participate in a topper-focused education community.
               </p>
             </div>
           </div>
 
           <div className="flex gap-4">
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 flex flex-col items-center py-2">
               <div className="w-6 h-6 flex items-center justify-center text-white text-sm font-bold">
                 <Image
                   src="/Images/WebT.png"
@@ -54,6 +72,8 @@ const Experience = () => {
                   className="h-full w-full object-contain"
                 />
               </div>
+              {/* Vertical Dashed Border */}
+              <div className="h-full w-px border-l-2 border-orange-500 border-dashed mt-3"></div>
             </div>
 
             <div className="flex-1">
@@ -61,14 +81,24 @@ const Experience = () => {
                 Junior Software Developer
               </h3>
 
-              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium">
-                March – December 2024
+              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
+                <span>March – December 2024</span>
+                <span className="text-white/80">(Wevloper)</span>
+                <a
+                  href="https://www.wevloper.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-500 hover:text-orange-400 transition-colors"
+                >
+                  <Globe size={14} />
+                </a>
               </div>
 
-              <p className=" text-gray-400 text-sm leading-relaxed">
-                Worked on both frontend and backend features using React.js,
-                Node.js, and RESTful APIs. Integrated design tokens with Figma &
-                Storybook, and contributed to system architecture.
+              <p className=" text-gray-400 text-sm leading-relaxed text-justify">
+                As a full-stack developer, I deliver end-to-end solutions, from
+                design to deployment. I build scalable, user-friendly
+                applications like Car Service Booking and ERP systems, ready to
+                contribute across your entire development lifecycle.
               </p>
             </div>
           </div>
@@ -91,13 +121,23 @@ const Experience = () => {
                 Frontend Developer Intern
               </h3>
 
-              <div className=" text-[12px] text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium">
-                September - December • 2023
+              <div className=" text-[12px] text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
+                September - December • 2023{" "}
+                <span className=" text-white/80">( Digicon )</span>
+                <a
+                  href="https://digicontechnologies.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-500 hover:text-orange-400 transition-colors"
+                >
+                  <Globe size={14} />
+                </a>
               </div>
 
-              <p className=" text-gray-400 text-sm leading-relaxed">
-                Built responsive UIs using React.js and Next.js for internal
-                CRMS at Digicon Technologies.
+              <p className=" text-gray-400 text-sm leading-relaxed text-justify">
+                I completed an internship at Digicon Technologies, where I
+                contributed to the BREB government project by building
+                responsive user interfaces using React.js and Next.js.
               </p>
             </div>
           </div>

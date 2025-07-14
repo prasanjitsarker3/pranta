@@ -22,9 +22,10 @@ const Education = () => {
             </div>
 
             <p className=" text-gray-400 leading-relaxed text-sm">
-              Studied IT with focus on software development, databases, and web
-              technologies. Gained frontend and backend skills through academic
-              and personal projects.
+              Studied core areas of Information Technology, including software
+              development, database systems, and computer networks. Gained both
+              frontend and backend development skills through academic and
+              personal projects.
             </p>
           </div>
           <div className="border-t border-gray-600"></div>
@@ -39,8 +40,9 @@ const Education = () => {
             </div>
 
             <p className="text-gray-400 leading-relaxed text-sm">
-              Focused on science and mathematics, building strong analytical and
-              problem-solving foundations for a tech career.
+              Completed higher secondary education in science and mathematics,
+              building a strong foundation in analytical thinking and
+              problem-solving for a tech career.
             </p>
           </div>
         </div>

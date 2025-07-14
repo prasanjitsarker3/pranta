@@ -11,10 +11,11 @@ const About = () => {
           About
         </h2>
         <h1 className=" text-white/90 text-base font-normal text-justify">
-          I’m a Full Stack Engineer focused on crafting meaningful digital
-          experiences where design meets code. With a strong front-end
-          development and UX design background, I build scalable UI systems and
-          contribute to user-centered products from concept to deployment.
+          Dedicated Full Stack Developer with a focus on delivering efficient and
+          scalable digital solutions. I leverage a robust background in backend
+          technologies, system design, API integration, and database management
+          to build and deploy resilient applications, ensuring seamless
+          functionality from server to client.
         </h1>
       </div>
     </div>
