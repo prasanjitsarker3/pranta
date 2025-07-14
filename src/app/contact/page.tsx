@@ -7,6 +7,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import emailjs from "emailjs-com"; 
+
 
 const ContactPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -26,17 +28,26 @@ const ContactPage = () => {
     setSubmitStatus("idle");
 
     try {
-      // if (result.success) {
-      //   setSubmitStatus("success");
-      //   setFormData({ name: "", email: "", subject: "", message: "" });
-      //   setTimeout(() => {
-      //     setOpen(false);
-      //     setSubmitStatus("idle");
-      //   }, 2000);
-      // } else {
-      //   setSubmitStatus("error");
-      // }
+      const result = await emailjs.send(
+        "service_hoi06vc",
+        "template_dp6pjq7",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "CTcv9pyzlyFDSQKgH"
+      );
+
+      if (result.status === 200) {
+        setSubmitStatus("success");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setSubmitStatus("error");
+      }
     } catch (error) {
+      console.error("Email send error:", error);
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -59,7 +70,7 @@ const ContactPage = () => {
               <Mail className="w-5 h-5" />
               Let's Work Together
             </h1>
-            <h1 className="text-white/20 text-sm mt-2">
+            <h1 className="text-white/80 text-sm mt-2">
               Have a project in mind? I'd love to hear about it. Send me a
               message and I'll get back to you soon.
             </h1>

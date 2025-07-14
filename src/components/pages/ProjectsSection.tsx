@@ -12,34 +12,33 @@ export default function ProjectsSection() {
           Projects
         </h2>
 
-        {/* Projects List */}
         <div className="space-y-6">
           {/* BP Project */}
-          <div className="flex items-center gap-4 p-0 md:p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+          <a
+            href="https://www.bpdreamschool.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group"
+          >
             <div className="flex-shrink-0">
-              <div className="w-32 aspect-4/3 relative rounded-md">
+              <div className=" w-44 md:w-32 aspect-4/3 relative rounded-md">
                 <Image
                   src="/Images/Screenshot 2025-07-14 130336.png"
                   alt="BP Dream School thumbnail"
                   fill
-                  className=" rounded-md"
+                  className="rounded-md"
                 />
               </div>
             </div>
 
             <div className="flex-1">
-              <div className=" flex items-center justify-between">
+              <div className="flex items-center justify-between">
                 <h3 className="text-base font-semibold text-white mb-1 uppercase">
                   BP Dream School
                 </h3>
-                <a
-                  href="https://www.bpdreamschool.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" -mt-1 text-orange-500"
-                >
+                <div className="-mt-1 text-orange-500">
                   <Globe size={15} />
-                </a>
+                </div>
               </div>
               <p className="text-gray-400 text-sm text-justify">
                 An EdTech academic application for students from Class 6 to 10,
@@ -48,79 +47,70 @@ export default function ProjectsSection() {
                 archived classes, and live exams...
               </p>
             </div>
+          </a>
 
-            {/* <div className="flex-shrink-0">
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all duration-200" />
-            </div> */}
-          </div>
-
-          {/* Najm Project */}
-          <div className="flex items-center gap-4 p-0 md:p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+          {/* Topper Project */}
+          <a
+            href="https://topperon.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group"
+          >
             <div className="flex-shrink-0">
-              <div className="w-32 aspect-4/3 relative rounded-md">
+              <div className=" w-44 md:w-32 aspect-4/3 relative rounded-md">
                 <Image
                   src="/Images/Screenshot 2025-07-14 130457.png"
-                  alt="BP Dream School thumbnail"
+                  alt="TopperOn thumbnail"
                   fill
-                  className=" rounded-md"
+                  className="rounded-md"
                 />
               </div>
             </div>
 
             <div className="flex-1">
-              <div className=" flex items-center justify-between">
+              <div className="flex items-center justify-between">
                 <h3 className="text-base font-semibold text-white mb-1 uppercase">
                   Topperon
                 </h3>
-                <a
-                  href="https://topperon.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" -mt-1 text-orange-500"
-                >
+                <div className="-mt-1 text-orange-500">
                   <Globe size={15} />
-                </a>
+                </div>
               </div>
-
               <p className="text-gray-400 text-sm text-justify">
                 TopperOn is an EdTech community platform where students can
                 purchase courses, join a large educational community, clear
-                doubts,routines, access TopFlix content, and buy curated courses
-                through partner organizations.
+                doubts, routines, access TopFlix content, and buy curated
+                courses through partner organizations.
               </p>
             </div>
+          </a>
 
-            {/* <div className="flex-shrink-0">
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all duration-200" />
-            </div> */}
-          </div>
-
-          {/* Nashra Project */}
-          <div className="flex items-center gap-4 p-0 md:p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+          {/* Boi Project */}
+          <a
+            href="https://boi.com.bd"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col md:flex-row items-center gap-4 p-2 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group"
+          >
             <div className="flex-shrink-0">
-              <div className="w-32 aspect-4/3 relative rounded-md">
+              <div className=" w-44 md:w-32 aspect-4/3 relative rounded-md">
                 <Image
                   src="/Images/Screenshot 2025-07-14 135309.png"
-                  alt="BP Dream School thumbnail"
+                  alt="BOI.BD thumbnail"
                   fill
-                  className=" rounded-md"
+                  className="rounded-md"
                 />
               </div>
             </div>
 
             <div className="flex-1">
-              <div className=" flex items-center justify-between">
+              <div className="flex items-center justify-between">
                 <h3 className="text-base font-semibold text-white mb-1">
                   BOI.BD
                 </h3>
-                <a
-                  href="https://boi.com.bd/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" -mt-1 text-orange-500"
-                >
+                <div className="-mt-1 text-orange-500">
                   <Globe size={15} />
-                </a>
+                </div>
               </div>
               <p className="text-gray-400 text-sm text-justify">
                 A digital platform for Bengali readers offering ebooks,
@@ -129,11 +119,7 @@ export default function ProjectsSection() {
                 bestsellers, and a reader leaderboard.
               </p>
             </div>
-
-            {/* <div className="flex-shrink-0">
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all duration-200" />
-            </div> */}
-          </div>
+          </a>
         </div>
       </div>
     </div>

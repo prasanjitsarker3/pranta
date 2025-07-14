@@ -36,20 +36,24 @@ const Experience = () => {
                 Full Stack Developer
               </h3>
 
-              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
-                <span className="text-green-500 text-lg leading-none -mt-1">
-                  ●
-                </span>
-                Onsite • Feb 2025 – Present{" "}
-                <span className=" text-white/80">( RubizCode)</span>
-                <a
-                  href="https://rubizcode.com "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-500 hover:text-orange-400 transition-colors"
-                >
-                  <Globe size={14} />
-                </a>
+              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row md:justify-start items-start md:items-center gap-2">
+                <div className="text-start">
+                  <span className="text-green-500 text-lg leading-none -mt-1">
+                    ●
+                  </span>
+                  <span>Onsite • Feb 2025 – Present </span>
+                </div>
+                <div className=" flex items-center gap-2">
+                  <span className=" text-white/80">( RubizCode)</span>
+                  <a
+                    href="https://rubizcode.com "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-500 hover:text-orange-400 transition-colors"
+                  >
+                    <Globe size={14} />
+                  </a>
+                </div>
               </div>
 
               <p className=" text-gray-400 leading-relaxed text-sm text-justify">
@@ -81,17 +85,19 @@ const Experience = () => {
                 Junior Software Developer
               </h3>
 
-              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
+              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row items-start md:items-center gap-2">
                 <span>March – December 2024</span>
-                <span className="text-white/80">(Wevloper)</span>
-                <a
-                  href="https://www.wevloper.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-500 hover:text-orange-400 transition-colors"
-                >
-                  <Globe size={14} />
-                </a>
+                <div className=" flex items-center gap-2">
+                  <span className="text-white/80">(Wevloper)</span>
+                  <a
+                    href="https://www.wevloper.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-500 hover:text-orange-400 transition-colors"
+                  >
+                    <Globe size={14} />
+                  </a>
+                </div>
               </div>
 
               <p className=" text-gray-400 text-sm leading-relaxed text-justify">
@@ -121,17 +127,19 @@ const Experience = () => {
                 Frontend Developer Intern
               </h3>
 
-              <div className=" text-[12px] text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex items-center gap-2">
+              <div className=" text-[12px] text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row items-start md:items-center gap-2">
                 September - December • 2023{" "}
-                <span className=" text-white/80">( Digicon )</span>
-                <a
-                  href="https://digicontechnologies.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-500 hover:text-orange-400 transition-colors"
-                >
-                  <Globe size={14} />
-                </a>
+                <div className=" flex items-center gap-2">
+                  <span className=" text-white/80">( Digicon )</span>
+                  <a
+                    href="https://digicontechnologies.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-500 hover:text-orange-400 transition-colors"
+                  >
+                    <Globe size={14} />
+                  </a>
+                </div>
               </div>
 
               <p className=" text-gray-400 text-sm leading-relaxed text-justify">

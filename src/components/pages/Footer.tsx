@@ -48,12 +48,12 @@ export default function FooterWithSocial() {
           >
             Blog
           </a>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="text-gray-400 hover:text-white transition-colors cursor-pointer"
           >
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Social Links */}
