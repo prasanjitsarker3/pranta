@@ -11,11 +11,14 @@ const About = () => {
           About
         </h2>
         <h1 className=" text-white/90 text-base font-normal text-justify">
-          Dedicated Full Stack Developer with a focus on delivering efficient and
-          scalable digital solutions. I leverage a robust background in backend
-          technologies, system design, API integration, and database management
-          to build and deploy resilient applications, ensuring seamless
-          functionality from server to client.
+          Software Developer specializing in backend engineering, system design,
+          and full-stack application development. Experienced in architecting
+          scalable services, designing efficient database solutions, and
+          developing secure APIs using modern technologies. Strong focus on
+          software quality, performance, and maintainability, with a proven
+          ability to deliver production-ready solutions in fast-paced
+          environments. Passionate about continuous improvement, technical
+          excellence, and building systems that scale with business growth.
         </h1>
       </div>
     </div>

@@ -26,7 +26,7 @@ const Banner = () => {
 
         {/* Main Heading */}
         <h1 className="text-white/80 text-2xl md:text-3xl font-bold mb-6 text-center">
-          Full Stack Developer
+          Software Engineer II
         </h1>
 
         {/* Social Icons */}

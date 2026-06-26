@@ -14,6 +14,53 @@ const Experience = () => {
         </h2>
 
         <div className="space-y-4">
+          {/* GearON */}
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 flex flex-col items-center py-2">
+              {/* Logo */}
+              <div className="w-6 h-6 flex items-center justify-center text-white text-sm font-bold">
+                <Image
+                  src="/Images/gearon.png"
+                  alt="GearON"
+                  width={30}
+                  height={30}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+
+              {/* Vertical Dashed Border */}
+              <div className="h-full w-px border-l-2 border-orange-500 border-dashed mt-3"></div>
+            </div>
+
+            <div className="flex-1">
+              <h3 className="text-lg font-semibold text-white/90 mb-0.5 md:mb-1">
+                Software Engineer II
+              </h3>
+
+              <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row md:justify-start items-start md:items-center gap-2">
+                <div className="text-start">
+                  <span className="text-green-500 text-lg leading-none -mt-1">
+                    ●
+                  </span>
+                  <span>Onsite • Gulshan-2, Dhaka • Jan 2025 – Present </span>
+                </div>
+                <div className=" flex items-center gap-2">
+                  <span className=" text-white/80">( GearON )</span>
+                </div>
+              </div>
+
+              <p className=" text-gray-400 leading-relaxed text-sm text-justify">
+                Develop and maintain scalable B2B, multi-role automotive service
+                platforms including the Car Owner, Mechanic, and Admin/Business
+                Dashboard apps. Build end-to-end features for service booking,
+                job management, inventory tracking, and workflow automation,
+                design secure role-based REST APIs with TypeScript, Node.js, and
+                PostgreSQL (Prisma ORM), and deploy on Linux VPS environments
+                using Docker, PM2, and Nginx.
+              </p>
+            </div>
+          </div>
+
           <div className="flex gap-4">
             <div className="flex-shrink-0 flex flex-col items-center py-2">
               {/* Logo */}
@@ -43,7 +90,7 @@ const Experience = () => {
                   </span>
                   <span>Onsite • Feb 2025 – Present </span>
                 </div>
-                <div className=" flex items-center gap-2">
+                {/* <div className=" flex items-center gap-2">
                   <span className=" text-white/80">( RubizCode)</span>
                   <a
                     href="https://rubizcode.com "
@@ -53,7 +100,7 @@ const Experience = () => {
                   >
                     <Globe size={14} />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <p className=" text-gray-400 leading-relaxed text-sm text-justify">
@@ -87,7 +134,7 @@ const Experience = () => {
 
               <div className="text-[12px] md:text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row items-start md:items-center gap-2">
                 <span>March – December 2024</span>
-                <div className=" flex items-center gap-2">
+                {/* <div className=" flex items-center gap-2">
                   <span className="text-white/80">(Wevloper)</span>
                   <a
                     href="https://www.wevloper.com"
@@ -97,7 +144,7 @@ const Experience = () => {
                   >
                     <Globe size={14} />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <p className=" text-gray-400 text-sm leading-relaxed text-justify">
@@ -129,7 +176,7 @@ const Experience = () => {
 
               <div className=" text-[12px] text-sm text-gray-300 uppercase tracking-wide mb-1.5 md:mb-3 font-medium flex flex-col md:flex-row items-start md:items-center gap-2">
                 September - December • 2023{" "}
-                <div className=" flex items-center gap-2">
+                {/* <div className=" flex items-center gap-2">
                   <span className=" text-white/80">( Digicon )</span>
                   <a
                     href="https://digicontechnologies.com/"
@@ -139,7 +186,7 @@ const Experience = () => {
                   >
                     <Globe size={14} />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <p className=" text-gray-400 text-sm leading-relaxed text-justify">
